@@ -1,0 +1,8 @@
+spring:
+  config:
+    activate:
+      on-profile:
+        - prod
+server:
+  port: 8082
+message: This is a message from prod profile recharged!

@@ -1,0 +1,21 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: account-service
+  cloud:
+    config:
+      enabled: false
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include:
+          - '*'
+  info:
+    env:
+      enabled: true
+message: Hola, este es el valor por defecto

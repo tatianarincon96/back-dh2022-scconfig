@@ -5,4 +5,4 @@ spring:
         - prod
 server:
   port: 8082
-message: This is a message from prod profile recharged!
+message: This is a message from prod from git!
